@@ -6666,6 +6666,7 @@ textarea.form-control-lg {
 
 .align-self-center {
   align-self: center !important;
+  margin : 0 auto; 
 }
 
 .align-self-baseline {
@@ -10720,5 +10721,77 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+.article{
+
+  margin: 50px;
+
+  margin-top: 150px;
+  margin-bottom: 25px;
+
+
+}
+
+.article h2{
+
+  font-weight: bold;
+  /*font-size: calc(1.325rem + 0.9vw);}*/
+
+  font-size: 30px;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    position: relative;
+    z-index: 2;
+    line-height: 44px;
+    text-align: center;
+
+}
+
+.article img{
+  
+  width: 1000px;
+  height: 600px;
+
+  text-align: center;
+
+}
+.article figure{
+  text-align: center;
+}
+
+.article figure figcaption{
+  color:#72b0a5;
+}
+
+
+.article h6{
+  text-align: center;
+  color: #415a66;
+  font-weight: bold;
+}
+
+.article_paragraph{
+  margin-right: 40px;
+  margin-left:40px;
+
+
+}
+
+.read_more_container{
+  text-align: center;
+}
+
+.read_more{
+
+  padding: 8px; 
+  border-radius: 50px;
+  background-color: red;
+  margin: 0 auto;
+  color: white;
+}
+
+
 
 /*# sourceMappingURL=bootstrap.css.map */
